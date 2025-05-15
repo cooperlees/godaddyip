@@ -29,9 +29,9 @@ setup(
         "console_scripts": ["{0}={0}.__main__:main".format(PACKAGE.lower())],
     },
     install_requires=[
-        "requests==2.32.0",
-        "pycurl==7.45.3",
-        "pyyaml==6.0.1",
+        "requests==2.32.3",
+        "pycurl==7.45.6",
+        "pyyaml==6.0.2",
     ],
     extras_require={
         "test": ["black"],
